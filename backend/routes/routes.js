@@ -11,7 +11,7 @@ import {
 const router = express.Router();
 
 //get answer
-router.get("/answer", showQandA);
+router.get("/answers", showQandA);
 
 // Create New question and answer
 router.post("/answer", createQandA);
